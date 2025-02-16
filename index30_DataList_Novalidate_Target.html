@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Book store</title>
+        <meta name="description" content="This is our book store"/>
+    </head>
+    <body>
+        <header>
+            <h1>Book store</h1>
+            <p>This is our book store</p>
+        </header>
+        <form action="" novalidate target="_blank">
+             <div>
+                <label >Username: </label>
+                <input type="text" name="user" required>   
+            </div>
+            <br>
+            <div>
+                <label >Password:</label>
+                <input type="password" name="pass">
+            </div>
+            <hr> 
+            <div>
+                <input list="programming" name="prog">
+                <datalist id="programming">
+                    <option value="C#">
+                    <option value="PHP">
+                    <option value="Python">
+                    <option value="C">
+                    <option value="c++">
+                    <option value="SQL">
+                    <option value="JavaScript">                    
+                </datalist>
+            </div>
+            <hr>
+            <div>
+                <input type="reset" value="reset">
+                <input type="submit" value="Save">
+            </div>
+        </form>
+    </body>
+</html>
