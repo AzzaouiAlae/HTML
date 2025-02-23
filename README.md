@@ -40,5 +40,3 @@ The course covers a wide range of HTML topics. Below is a detailed list of the s
 - **32. Iframe, Pre, Code**
 - **33. Accessibility Introduction**
 - **34. ARIA & Screen Readers**
-
-## Projects & Exercises
